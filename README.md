@@ -22,6 +22,8 @@ The goal is to demonstrate **how a professional IT service desk works** - not ju
 ---
 
 ## Repository structure
+```
+```
 Tier1-Helpdesk-Lab/
 ├── README.md                          ← You are here
 ├── LAB-OVERVIEW.md                    ← Full environment design
@@ -55,7 +57,8 @@ Tier1-Helpdesk-Lab/
 ├── 04-Screenshots-Evidence/           ← Audit-style proof per ticket
 ├── 05-Templates/                      ← Standardized forms
 └── 06-Reports-Analytics/              ← Volume & trend analysis
-
+```
+```
 
 ---
 
