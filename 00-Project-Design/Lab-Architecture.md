@@ -16,7 +16,7 @@
 ## High-Level Components
 - Identity layer (Users + Groups)
 - Access control layer (Domain Local groups + Delegation)
-- Resource layer (File shares + **shared printers**)
+- Resource layer (File shares + shared printers)
 - Policy layer (Group Policy – including printer deployment)
 - Client layer (Windows 11 domain-joined workstations)
 - Print layer (mocked Print Server on DC01)
