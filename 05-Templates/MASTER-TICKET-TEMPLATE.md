@@ -5,7 +5,7 @@
 **Subcategory:**  
 **Priority:** P1 / P2 / P3 / P4  
 **Date:** YYYY-MM-DD  
-**Reported By:** name@adlab.test  
+**Reported By:** `name@adlab.test` 
 **Assigned To:**  
 
 ---
