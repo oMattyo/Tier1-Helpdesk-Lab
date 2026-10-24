@@ -10,14 +10,15 @@ The goal is to demonstrate **how a professional IT service desk works** - not ju
 
 ## Lab Overview
 
-| Component          | Details                                                             |
-|---------------------|-----------------------------------------------------------------------|
-| Domain             | 'adlab.test'                                                        |
-| Domain Controller  | DC01 (Windows Server 2025)                                          |
-| Client             | Windows 11 Pro (domain-joined)                                      |
-| Identity Model     | AGDLP (Account->Global->Domain Local->Permission)                   |
-| Help Desk Tiers    | T1 (password reset / unlock) T2 (status + modify)                   |
-| Key Technologies   | Active Directory, DNS, DHCP, Group Policy, NTFS + Share permissions |
+| Component          | Details                                                                       |
+|---------------------|---------------------------------------------------------------------------------|
+| Domain             | 'adlab.test'                                                                  |
+| Domain Controller  | DC01 (Windows Server 2025)                                                    |
+| Client             | Windows 11 Pro (domain-joined)                                                |
+| Identity Model     | AGDLP (Account->Global->Domain Local->Permission)                             |
+| Help Desk Tiers    | T1 (password reset / unlock) T2 (status + modify)                             |
+| Print Services     | Mocked Print Server on DC01 (non-functional - for simple ticket practice)     |
+| Key Technologies   | Active Directory, DNS, DHCP, Group Policy, NTFS + Share permissions           |
 
 ---
 
@@ -74,6 +75,9 @@ Tier1-Helpdesk-Lab/
   Tier 2 can enable/disable and modify attributes.  
   Privileged accounts and IT accounts are protected.
 
+- **Mocked Print Server**  
+  Print and Document Services role installed on DC01 with a shared dummy printer for practicing deployment, permissions, and troubleshooting.
+
 - **Real Help Desk workflow**  
   Structured tickets with diagnosis → root cause → resolution → verification → escalation decisions.
 
@@ -92,6 +96,7 @@ Tier1-Helpdesk-Lab/
 3. **Privileged accounts live in a separate OU and are never managed by Help Desk.**
 4. **Every ticket is documented with evidence and root cause.**
 5. **Knowledge Base articles are written so another technician can follow them.**
+6. **Print Server is deliberately non-functional** - it exists only for skill practice. 
 
 ---
 
@@ -115,6 +120,7 @@ Tier1-Helpdesk-Lab/
 - Delegation of Control
 - Group Policy scoping and troubleshooting
 - File share + NTFS permission design
+- Print Server management (mocked)
 - Structured troubleshooting methodology
 - Professional documentation & knowledge management
 - ITIL-aligned Incident / Request / Access / Problem thinking
