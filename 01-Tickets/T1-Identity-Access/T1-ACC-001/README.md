@@ -60,6 +60,5 @@ Account lockout was caused by multiple failed logon attempts.
 Will link to: [02-Knowledge-Base/Identity-Access/Password-Reset-and-Unlock.md](../../../02-Knowledge-Base/Identity-Access/Password-Reset-and-Unlock.md)
 
 ### Evidence
-All screenshots for this ticket are stored in:  
-[04-Screenshots-Evidence/T1-ACC-001/](../../../04-Screenshots-Evidence/T1-ACC-001/)
+All screenshots for this ticket are stored in: [04-Screenshots-Evidence/T1-ACC-001/](../../../04-Screenshots-Evidence/T1-ACC-001/)
 
